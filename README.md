@@ -22,6 +22,7 @@ An orchestrator is anyone who can hand out a task clearly. Writing code is not p
 |---|---|---|
 | [01](lessons/01-why-this-series.md) | Why I am teaching this, and what it costs you not to learn it | 2026-08-21 |
 | [02](lessons/02-i-am-not-a-programmer.md) | "I am not a programmer" — the objection aimed at the wrong thing | 2026-08-22 |
+| [03](lessons/03-i-will-break-something.md) | "I will break something" — the undo button, and where it stops working | 2026-08-23 |
 
 New lesson each day. RU originals go to Facebook and Telegram, EN lives here.
 
