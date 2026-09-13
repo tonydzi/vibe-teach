@@ -1,6 +1,6 @@
 # Vibe-Teach
 
-Daily lessons on Claude Code and Codex for people who have never opened a terminal.
+Daily lessons on Claude Code and Codex for people who have never opened a terminal, starting at [lessons/01-why-this-series.md](lessons/01-why-this-series.md).
 
 Not for programmers. For business owners, executives and investors who keep hearing that AI agents can run part of their company, and who do not know where the first click is.
 
@@ -14,7 +14,7 @@ Anton's words, unsoftened:
 
 **On those numbers:** they are Anton's own estimate from running this lab, not a study. A proper cost breakdown is being researched now, and when it lands, the numbers in this repo get replaced with sourced ones. We publish estimates labelled as estimates.
 
-An orchestrator is anyone who can hand out a task clearly. Writing code is not part of the job.
+An orchestrator is anyone who can hand out a task clearly, which is the argument of [lessons/02-i-am-not-a-programmer.md](lessons/02-i-am-not-a-programmer.md). Writing code is not part of the job.
 
 ## Lessons
 
@@ -28,9 +28,9 @@ New lesson each day. RU originals go to Facebook and Telegram, EN lives here.
 
 ## Where this comes from
 
-This is not a course written from theory. It is written from a running system: five machines, a fleet of Claude agents that talk to each other over Telegram, a second brain of ~100k notes, a CRM that tracks whose turn it is to reply, and watchdogs that wake a human only for money or irreversible things.
+This is not a course written from theory, and the system it is written from is mapped in [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md). It is written from a running system: five machines, a fleet of Claude agents that talk to each other over Telegram, a second brain of ~100k notes, a CRM that tracks whose turn it is to reply, and watchdogs that wake a human only for money or irreversible things.
 
-Every lesson carries one piece of that system as the worked example. Not "AI can help you with email" — here is the thing we built, here is what broke, here is what it cost.
+Every lesson carries one piece of that system as the worked example, in the shape of [lessons/03-i-will-break-something.md](lessons/03-i-will-break-something.md). Not "AI can help you with email" — here is the thing we built, here is what broke, here is what it cost.
 
 Most of it is open source: https://github.com/tonydzi
 
@@ -42,7 +42,7 @@ Most of it is open source: https://github.com/tonydzi
 
 ## About the authorship
 
-Anton Dziatkovskii is the author and the responsible person for everything published here. Drafts are written by Mycroft, his synthetic cofounder, and reviewed by Anton before publication. Commits carry `Assisted-by:` for that reason.
+Anton Dziatkovskii is the author and the responsible person for everything published here, which is licensed [MIT](LICENSE) and citable via [CITATION.cff](CITATION.cff). Drafts are written by Mycroft, his synthetic cofounder, and reviewed by Anton before publication. Commits carry `Assisted-by:` for that reason.
 
 Palo Alto AI Research Lab.
 
@@ -52,9 +52,7 @@ Palo Alto AI Research Lab.
 
 ## 🧩 One piece of a working system
 
-This repository is one piece lifted out of a live operation: one non-technical founder, an AI
-cofounder, and a fleet of machines that reach consensus with each other and wake the human only
-for money or the irreversible. It was extracted after it survived production, not written as a
+This repository is one piece lifted out of a live operation mapped in [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md): one non-technical founder, an AI cofounder, and a fleet of machines that reach consensus with each other and wake the human only for money or the irreversible. It was extracted after it survived production, not written as a
 demo — and it runs on its own: nothing here phones home to the rest.
 
 **See how the whole thing fits together → [SYSTEM.md](https://github.com/tonydzi/tonydzi/blob/main/SYSTEM.md)**
@@ -63,7 +61,6 @@ demo — and it runs on its own: nothing here phones home to the rest.
 
 ## AI contributors
 
-This project is built by a human + AI team, and the git log says so: Claude writes most of
-the code, Codex and Grok review it, Gemini feeds the research. Each is credited on a commit
+This project is built by a human + AI team, and the git log says so under the rules in [AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md): Claude writes most of the code, Codex and Grok review it, Gemini feeds the research. Each is credited on a commit
 **only if its output changed that commit's content** — no decorative credits. Lab-wide
 policy, one source for every repo: [AI-CONTRIBUTORS.md](https://github.com/tonydzi/.github/blob/main/AI-CONTRIBUTORS.md).
